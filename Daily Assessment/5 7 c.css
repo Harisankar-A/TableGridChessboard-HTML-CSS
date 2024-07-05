@@ -1,0 +1,33 @@
+table th,td{
+    border: 2px solid;
+    padding:10px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    gap: 30px;
+}
+.f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ct .b{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.ct .w{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+}
+.ct{
+    display: grid;
+    grid-template-columns: repeat(8,50px);
+    
+}
